@@ -69,7 +69,7 @@ void bfs_B(ALMap *M,int vi,int vj){
         if(q[l].node == vj){
             int printIndex = l;
             while(q[printIndex].parent != -1){
-                cout<<q[printIndex].node<<" "; 
+                cout<<q[printIndex].node<<" ";
                 printIndex = q[printIndex].parent;
             }
             cout<<q[printIndex].node<<endl;
